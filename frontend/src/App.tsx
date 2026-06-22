@@ -23,8 +23,11 @@ export default function App() {
   // Shared state to allow document audit redirect
   const [selectedDocForAudit, setSelectedDocForAudit] = useState<number | null>(null);
 
-  // Resolve backend API URL from Vite env variables (useful for cloud deploys like Vercel)
-  const backendUrl = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
+  // Resolve backend API URL dynamically based on current browser hosting origin
+  const backendUrl = import.meta.env.VITE_API_URL || 
+    (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+      ? "http://localhost:8000/api/v1"
+      : window.location.origin + "/api/v1");
 
   // Check if token exists, and if it's valid
   useEffect(() => {
