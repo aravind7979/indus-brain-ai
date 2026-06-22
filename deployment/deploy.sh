@@ -51,7 +51,7 @@ python3 -m venv venv
 source venv/bin/activate
 log "Installing pip requirements (this may take 2-3 minutes for FAISS & Torch)..."
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 deactivate
 
 # Setup baseline .env if missing
