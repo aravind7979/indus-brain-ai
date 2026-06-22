@@ -84,7 +84,7 @@ WorkingDirectory=/var/www/indus-brain-ai/backend
 ExecStart=/var/www/indus-brain-ai/backend/venv/bin/uvicorn backend.main:app --host 127.0.0.1 --port 8000
 Restart=always
 RestartSec=5
-Environment=PATH=/var/www/indus-brain-ai/backend/venv/bin:/usr/bin:/bin
+Environment=PATH=/var/www/indus-brain-ai/backend/venv/bin:/usr/bin:/bin PYTHONPATH=/var/www/indus-brain-ai
 
 [Install]
 WantedBy=multi-user.target
