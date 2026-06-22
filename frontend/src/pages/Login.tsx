@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Shield, Lock, User, Terminal, Loader } from 'lucide-react';
 
 interface LoginProps {
-  onLoginSuccess: (token: str) => void;
+  onLoginSuccess: (token: string) => void;
   backendUrl: string;
 }
 

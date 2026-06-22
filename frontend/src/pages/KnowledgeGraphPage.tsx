@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { GitMerge, Database, Link, RefreshCw, Layers, ShieldAlert, Cpu } from 'lucide-react';
+import { GitMerge, Database, Link, RefreshCw, Layers, ShieldAlert, Cpu, Loader } from 'lucide-react';
 
 interface Node {
   id: string;
