@@ -1,8 +1,8 @@
-# INDUS BRAIN AI — Unified Industrial Knowledge Intelligence Platform
+# INDUS BRAIN AI - Unified Industrial Knowledge Intelligence Platform
 
 **Unified Operations and Asset Intelligence Brain // ET AI Hackathon 2026**
 
-**Problem Statement Addressed:** PS8 — AI for Industrial Knowledge Intelligence: Unified Asset & Operations Brain
+**Problem Statement Addressed:** PS8 - AI for Industrial Knowledge Intelligence: Unified Asset & Operations Brain
 
 ---
 
