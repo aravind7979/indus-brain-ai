@@ -38,7 +38,7 @@ fi
 PROJECT_ROOT="/var/www/indus-brain-ai"
 log "Synchronizing directories under $PROJECT_ROOT..."
 sudo mkdir -p "$PROJECT_ROOT"
-sudo chown -R $USER:$USER "$PROJECT_ROOT"
+sudo chown -R ubuntu:ubuntu "$PROJECT_ROOT"
 
 # Copy files from repository to web root (clean target first to prevent nesting bugs)
 rm -rf "$PROJECT_ROOT/backend"
