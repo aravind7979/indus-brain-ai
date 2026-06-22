@@ -1,0 +1,55 @@
+# ==============================================================================
+# INDUS BRAIN AI - GIT IGNORE FILE
+# ==============================================================================
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets and Configs
+.env
+.env.production
+backend.log
+*.log
+
+# Databases & Vector store files
+*.db
+*.db-journal
+faiss_index/
+uploaded_files/
+
+# Node/Vite build artifacts
+node_modules/
+frontend/dist/
+frontend/.vite/
+.eslintcache
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
