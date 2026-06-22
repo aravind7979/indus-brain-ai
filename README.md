@@ -6,6 +6,11 @@
 
 ---
 
+## 🌐 Live Demo
+🔗 **[Click here to view the Live Demo of INDUS BRAIN AI](https://indusbrain-ai.vercel.app/)**
+
+---
+
 ## 🚀 Overview
 
 **INDUS BRAIN AI** is a production-quality, enterprise-ready knowledge system that ingests fragmented industrial documents—including OEM manuals, SOPs, work permits, safety standards (OISD, Factory Act), and maintenance reports—and transforms them into a unified operations brain.
@@ -17,6 +22,15 @@ It helps industrial organizations:
 
 ---
 
+## 📸 Application Screenshots
+
+### Upload Documents
+![Upload Documents](assets/screenshot1.png)
+
+### Knowledge Extraction
+![Knowledge Extraction](assets/screenshot2.png)
+
+---
 ## 🛠️ Technology Stack
 
 ### Backend Component
