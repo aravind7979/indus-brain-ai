@@ -40,7 +40,9 @@ log "Synchronizing directories under $PROJECT_ROOT..."
 sudo mkdir -p "$PROJECT_ROOT"
 sudo chown -R $USER:$USER "$PROJECT_ROOT"
 
-# Copy files from repository to web root
+# Copy files from repository to web root (clean target first to prevent nesting bugs)
+rm -rf "$PROJECT_ROOT/backend"
+rm -rf "$PROJECT_ROOT/frontend"
 cp -r ../backend "$PROJECT_ROOT/"
 cp -r ../frontend "$PROJECT_ROOT/"
 
